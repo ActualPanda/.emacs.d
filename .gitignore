@@ -1,0 +1,8 @@
+.lsp*
+*.*~
+eln-cache/
+elpa/
+*.eld
+projects
+transient/
+tutorial/
