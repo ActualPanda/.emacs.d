@@ -1,3 +1,4 @@
+;;; init-lsp.el -*- lexical-binding: t -*-
 (use-package eglot
   :config
   (add-to-list 'eglot-server-programs

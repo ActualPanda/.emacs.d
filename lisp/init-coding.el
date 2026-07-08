@@ -1,3 +1,4 @@
+;;; init-coding.el -*- lexical-binding: t -*-
 (use-package emr
   :bind (:map emacs-lisp-mode-map
 	      ("M-RET" . emr-show-refactor-menu)))

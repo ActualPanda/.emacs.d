@@ -1,3 +1,4 @@
+;;; init-funcs.el -*- lexical-binding: t -*-
 (defun ap/refresh-config ()
   "Refresh init.el"
   (interactive)

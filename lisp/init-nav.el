@@ -1,3 +1,4 @@
+;;; init-nav.el -*- lexical-binding: t -*-
 (use-package evil
   :init
   (setq evil-default-state 'emacs)

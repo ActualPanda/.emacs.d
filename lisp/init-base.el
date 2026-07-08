@@ -1,3 +1,4 @@
+;;; init-base.el -*- lexical-binding: t -*-
 (require 'init-funcs)
 
 (use-package emacs
