@@ -7,3 +7,4 @@ projects
 transient/
 tutorial/
 custom.el
+server/
