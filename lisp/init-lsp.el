@@ -3,7 +3,7 @@
   :config
   (add-to-list 'eglot-server-programs
 	       '(lua-mode . ("lua-language-server")))
-  :hook ((lua-mode . eglot-ensure))
+  :hook (((lua-mode rust-mode gdscript-mode) . eglot-ensure))
   :bind (:map eglot-mode-map
 	      ("C-c r" . eglot-rename)
 	      ("C-c h" . eldoc)
