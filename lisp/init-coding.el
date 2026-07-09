@@ -9,4 +9,9 @@
   :init
   (setq lua-indent-level 4))
 
+(use-package cargo-mode
+  :hook (rust-mode . cargo-minor-mode)
+  :config
+  (setq compilation-scroll-output))
+
 (provide 'init-coding)
