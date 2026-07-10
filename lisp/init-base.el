@@ -15,7 +15,6 @@
   (menu-bar-mode -1)
 
   (column-number-mode)
-  (global-display-line-numbers-mode)
 
   (dolist (mode '(org-mode-hook
 		  term-mode-hook
@@ -32,8 +31,6 @@
   :custom
   (enlight-content
    (concat
-    (propertize "MENU" 'face 'highlight)
-    "\n"
     (enlight-menu
      '(("Config" ("Open Config" ap/open-config-dir "c"))
        ("Projects" ("Open Project" projectile-switch-project "p")))))))
