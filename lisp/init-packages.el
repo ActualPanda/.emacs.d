@@ -5,7 +5,8 @@
 (dolist (package-name
 	 '(company emr reformatter magit evil
 		   lua-mode projectile batppuccin
-		   enlight cargo-mode hydra gdscript-mode))
+		   enlight cargo-mode hydra gdscript-mode
+		   rainbow-delimiters paredit))
   (unless (package-installed-p package-name)
     (package-install package-name)))
 
