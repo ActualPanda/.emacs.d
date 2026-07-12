@@ -8,3 +8,4 @@ transient/
 tutorial/
 custom.el
 server/
+tramp
