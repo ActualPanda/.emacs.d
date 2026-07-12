@@ -19,6 +19,12 @@
 	      ([tab] . company-complete-selection)
 	      ("TAB" . company-complete-selection)))
 
+(use-package slime-company
+  :after (slime company)
+  :config
+  (setq slime-company-completion 'fuzzy
+	slime-company-after-completion 'slime-comany-just-one-space))
+
 (use-package reformatter
   :config
   (reformatter-define stylua-format
