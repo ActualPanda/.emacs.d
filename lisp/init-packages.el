@@ -6,7 +6,8 @@
 	 '(company emr reformatter magit evil
 		   lua-mode projectile batppuccin
 		   enlight cargo-mode hydra gdscript-mode
-		   rainbow-delimiters paredit))
+		   rainbow-delimiters paredit slime
+		   clojure-mode cider))
   (unless (package-installed-p package-name)
     (package-install package-name)))
 
